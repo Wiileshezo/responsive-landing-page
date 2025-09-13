@@ -2,12 +2,18 @@
 import TheNavigation from "./components/layouts/TheNavigation.vue";
 import TheFooter from "./components/layouts/TheFooter.vue";
 import HeroSection from "./components/common/HeroSection.vue";
+import TheCompanies from "./components/common/TheCompanies.vue";
+import SearchAndBenefits from "./components/common/SearchAndBenefits.vue";
+import PopularCourses from "./components/common/PopularCourses.vue";
 
 export default {
   components: {
     TheNavigation,
     TheFooter,
     HeroSection,
+    TheCompanies,
+    SearchAndBenefits,
+    PopularCourses,
   },
 };
 </script>
@@ -15,6 +21,9 @@ export default {
 <template>
   <the-navigation></the-navigation>
   <hero-section></hero-section>
+  <the-companies></the-companies>
+  <search-and-benefits></search-and-benefits>
+  <popular-courses></popular-courses>
   <the-footer></the-footer>
 </template>
 
@@ -33,7 +42,7 @@ export default {
   --LightText: #777777; /*(Paragraphs) */
   --ButtonPink: #ff5da6; /*(Free Trial button) */
   --ButtonPinkLG: linear-gradient(
-    to bottom,
+    to bottom right,
     #c076ff,
     #ff5da6
   ); /*(Free Trial button) */
@@ -43,7 +52,7 @@ export default {
   --ButtonHoverPurple: #8849df;
   --CourseCardShadowGrey: #dadada; /*(light drop shadow)*/
   --IconsBasePurple: #bc72ff;
-  --FooterPurpleGradient: linear-gradient(to right, #c076ff, #913fff);
+  --FooterPurpleGradient: linear-gradient(to bottom right, #c076ff, #913fff);
 }
 * {
   box-sizing: content-box;
