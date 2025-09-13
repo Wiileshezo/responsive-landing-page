@@ -38,7 +38,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: var(--LightGrey);
+  background-color: var(--LightBackgroundWhite);
   z-index: 100;
 }
 
@@ -60,7 +60,7 @@ li > a {
 }
 div > button {
   display: inline;
-  margin: auto;
+  margin: 0.3rem;
 }
 .icon-label {
   position: absolute;
@@ -88,7 +88,7 @@ div > button {
     display: block;
   }
 }
-@media (max-width: 770px) {
+@media (max-width: 870px) {
   header {
     justify-content: flex-start;
   }

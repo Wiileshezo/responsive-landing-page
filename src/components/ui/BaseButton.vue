@@ -19,12 +19,12 @@ button {
 }
 .with-bg {
   background: var(--ButtonPinkLG);
-  color: var(--LightGrey);
+  color: var(--LightBackgroundWhite);
   border: none;
 }
 .with-bg:hover,
 .with-bg:active {
-  background: var(--LightGrey);
+  background: var(--LightBackgroundWhite);
   color: var(--ButtonPink);
   border: solid 1px var(--ButtonPink);
 }
