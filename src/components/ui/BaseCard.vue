@@ -3,13 +3,14 @@ export default {};
 </script>
 
 <template>
-  <div class="card">
+  <div class="card" :type="type" :class="mode">
     <slot></slot>
   </div>
 </template>
 
 <style scoped>
 .card {
-  padding: 1rem;
+  border-radius: 2rem;
+  background-color: var(--LightBackgroundWhite);
 }
 </style>

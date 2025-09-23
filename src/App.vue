@@ -5,6 +5,9 @@ import HeroSection from "./components/common/HeroSection.vue";
 import TheCompanies from "./components/common/TheCompanies.vue";
 import SearchAndBenefits from "./components/common/SearchAndBenefits.vue";
 import PopularCourses from "./components/common/PopularCourses.vue";
+import BecomeInstructor from "./components/common/BecomeInstructor.vue";
+import StudentTestimonials from "./components/common/StudentTestimonials.vue";
+import ContactUs from "./components/common/ContactUs.vue";
 
 export default {
   components: {
@@ -14,6 +17,9 @@ export default {
     TheCompanies,
     SearchAndBenefits,
     PopularCourses,
+    BecomeInstructor,
+    StudentTestimonials,
+    ContactUs,
   },
 };
 </script>
@@ -24,7 +30,12 @@ export default {
   <the-companies></the-companies>
   <search-and-benefits></search-and-benefits>
   <popular-courses></popular-courses>
-  <the-footer></the-footer>
+  <become-instructor></become-instructor>
+  <div class="PurpleGradientStart">
+    <student-testimonials></student-testimonials>
+    <contact-us></contact-us>
+    <the-footer></the-footer>
+  </div>
 </template>
 
 <style>
@@ -53,6 +64,7 @@ export default {
   --CourseCardShadowGrey: #dadada; /*(light drop shadow)*/
   --IconsBasePurple: #bc72ff;
   --FooterPurpleGradient: linear-gradient(to bottom right, #c076ff, #913fff);
+  --LightPurple: #e3c4ff;
 }
 * {
   box-sizing: content-box;
@@ -67,5 +79,8 @@ export default {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+.PurpleGradientStart {
+  background: var(--ButtonPinkLG);
 }
 </style>

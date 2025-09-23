@@ -14,18 +14,18 @@ export default {};
   <section class="benefits">
     <div class="img-container">
       <div>
-        <img src="../../images/1-g.png" alt="" class="img-g1 pink" />
-        <img src="../../images/1-b.png" alt="" class="img-b1 purple" />
+        <img src="@/images/1-g.png" alt="" class="img-g1 pink" />
+        <img src="@/images/1-b.png" alt="" class="img-b1 purple" />
       </div>
       <div>
-        <img src="../../images/2-g.png" alt="" class="img-g2 purple" />
-        <img src="../../images/2-b.png" alt="" class="img-b2 pink" />
+        <img src="@/images/2-g.png" alt="" class="img-g2 purple" />
+        <img src="@/images/2-b.png" alt="" class="img-b2 pink" />
       </div>
     </div>
     <div class="benefits-container">
       <h1><i class="bold">Benefits</i> From Our Online Learning</h1>
       <div class="benefits-detials">
-        <img src="../../images/graduate.png" alt="" class="purple icon" />
+        <img src="@/images/graduate.png" alt="" class="purple icon" />
         <div>
           <h3>Online Degrees</h3>
           <p>
@@ -35,7 +35,7 @@ export default {};
         </div>
       </div>
       <div class="benefits-detials">
-        <img src="../../images/book.png" alt="" class="pink icon" />
+        <img src="@/images/book.png" alt="" class="pink icon" />
         <div>
           <h3>Shorts Courses</h3>
           <p>
@@ -45,7 +45,7 @@ export default {};
         </div>
       </div>
       <div class="benefits-detials">
-        <img src="../../images/user.png" alt="" class="purple icon" />
+        <img src="@/images/user.png" alt="" class="purple icon" />
         <div>
           <h3>Training From Experts</h3>
           <p>
@@ -55,7 +55,7 @@ export default {};
         </div>
       </div>
       <div class="benefits-detials">
-        <img src="../../images/play.png" alt="" class="pink icon" />
+        <img src="@/images/play.png" alt="" class="pink icon" />
         <div>
           <h3>1.5k+ Video Courses</h3>
           <p>

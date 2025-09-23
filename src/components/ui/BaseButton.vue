@@ -12,10 +12,12 @@ export default {
 
 <style scoped>
 button {
-  padding: 0.2rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   border: solid 1px var(--ButtonPink);
+  /* border: solid 2px var(--LinkTextPurple); */
   margin-inline: 0.3rem;
+  color: var(--ButtonPink);
 }
 .with-bg {
   background: var(--ButtonPinkLG);
