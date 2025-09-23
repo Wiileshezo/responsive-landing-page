@@ -3,11 +3,7 @@
 <template>
   <header>
     <a href="#">
-      <img
-        src="../../images/wiileshzo-removebg.png"
-        alt="logo"
-        class="nav-logo"
-      />
+      <img src="@/images/wiileshzo-removebg.png" alt="logo" class="nav-logo" />
     </a>
     <input type="checkbox" id="check" />
     <label for="check" class="icon-label">

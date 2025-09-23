@@ -3,7 +3,7 @@
 <template>
   <section>
     <div class="boxes">
-      <img src="../../images/iileshzo-removebg.png" alt="" />
+      <img src="@/images/iileshzo-removebg.png" alt="" />
       <p>
         Lorem ipsum dolor sit amet,<br />
         consectetur adipiscing elit, <br />sed do eiusmod tempor incididunt.
@@ -58,12 +58,11 @@
 
 <style scoped>
 section {
-  background: var(--ButtonPinkLG);
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1rem 4rem;
+  padding: 4rem;
 }
 .boxes {
   padding: 0.5rem;

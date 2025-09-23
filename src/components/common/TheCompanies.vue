@@ -4,11 +4,11 @@ export default {};
 
 <template>
   <section>
-    <img src="../../images/Duolingo.png" alt="" />
-    <img src="../../images/magic-leap.png" alt="" />
-    <img src="../../images/microsoft.png" alt="" />
-    <img src="../../images/codecov.png" alt="" />
-    <img src="../../images/user-testing.png" alt="" />
+    <img src="@/images/Duolingo.png" alt="" />
+    <img src="@/images/magic-leap.png" alt="" />
+    <img src="@/images/microsoft.png" alt="" />
+    <img src="@/images/codecov.png" alt="" />
+    <img src="@/images/user-testing.png" alt="" />
   </section>
 </template>
 

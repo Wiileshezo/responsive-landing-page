@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="img-side">
-      <img src="../../images/lg.png" alt="" />
+      <img src="@/images/lg.png" alt="" />
       <div class="badge-container badge-1">
         <div>
           <span class="plus-icon">
@@ -42,7 +42,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-inline: 3rem;
+  padding-inline: 6rem;
   background: var(--LightBackgroundWhite);
 }
 .p-side {
@@ -51,12 +51,16 @@ section {
 }
 .p-side p {
   font-size: calc(0.7rem + 0.3vw);
+  max-width: 46ch;
+  text-align: justify;
 }
 .p-side div {
   margin-block: 1rem;
 }
 h1 {
   font-weight: 700;
+  max-width: 17ch;
+  font-size: calc(1.5rem + 1vw);
 }
 .img-side {
   width: 100vw;
